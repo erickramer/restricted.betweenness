@@ -2,7 +2,7 @@
 \alias{restricted.betweenness}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+restricted.betweenness
 }
 \description{
 Calculates betweenness using only paths from the source vertices to the sink vertices
@@ -50,7 +50,6 @@ Eric Kramer <ericransomkramer@gmail.com>
     library("igraph")
     g = barabasi.game(100)
     restricted.betweenness(g, from=1:50, to=51:100) 
-  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
