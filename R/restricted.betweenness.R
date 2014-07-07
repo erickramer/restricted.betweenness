@@ -1,6 +1,7 @@
 restricted.betweenness <- function(g, from=V(g), to=V(g), parallel=T){
   require("plyr")
-
+  require("igraph")
+  
   rb.one.node <- function(i){
     sp = get.all.shortest.paths(g, i, to)$res
     sp = sp[sapply(sp, function(x) length(x) > 2)]
