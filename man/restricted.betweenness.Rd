@@ -49,7 +49,7 @@ Eric Kramer <ericransomkramer@gmail.com>
 \examples{
     library("igraph")
     g = barabasi.game(100)
-    restricted.betweenness(g, from=1:50, to=51:100)
+    restricted.betweenness(g, from=1:50, to=51:100) 
   }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

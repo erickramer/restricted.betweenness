@@ -3,12 +3,11 @@
 \alias{restricted.betweenness}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+Restricted betweenness
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+Restricted betweenness calculates the betweenness centrality of every nodes in a graph using only shortests paths between a set of source nodes and a set of sink nodes 
+License: What license is it under?
 }
 \details{
 \tabular{ll}{
@@ -29,7 +28,6 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 \references{
 ~~ Literature or other references for background information ~~
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
 \keyword{ package }
 \seealso{
 ~~ Optional links to other man pages, e.g. ~~
